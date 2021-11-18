@@ -32,6 +32,10 @@ header {
   font-family: 'Trirong';
   color: white;
   letter-spacing: 4px;
+  font-weight: bolder;
+}
+.front{
+  color: rgb(15, 87, 160);
 }
 
 .banner-area{
