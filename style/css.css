@@ -47,6 +47,54 @@ header {
   width: 100%;
   position: fixed;
 }
+.user-login-form
+{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #024e76;
+  background-color: #92bde7 ;
+  padding: 20px;
+  width: 500px;
+  color: rgb(15, 87, 160);
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+  background-color: #92bde7 transparent;
+}
+.email-login,
+.password-login {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+  
+}
+.ques{
+  padding: auto;
+  
+}
+.w2,
+.w1{
+  margin: 0 5px;
+}
+.button, 
+.user{
+  color: white;
+  background-color: #0a6da3;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.button:hover,
+.user:hover {
+  background-color:rgba(2, 19, 41, 0.116);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .banner-area::after{
   content:'';
   position: absolute;
@@ -85,7 +133,3 @@ header {
   text-align: justify
 }
 /* Bordered form */
-form {
-  background: #92bde7;
-  border: 3px solid ;
-}
