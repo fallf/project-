@@ -50,17 +50,16 @@ header {
 .user-login-form
 {
   display: block; 
-  margin-left: auto;
-  margin-right: auto;
+margin: auto;
   border: 3px solid #024e76;
   background-color: #92bde7 ;
+  opacity: 0.9;
   padding: 20px;
   width: 500px;
   color: rgb(15, 87, 160);
   position: absolute;
   bottom: 120px;
   right: 140px;
-  background-color: #92bde7 transparent;
 }
 .email-login,
 .password-login {
